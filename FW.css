@@ -1,0 +1,145 @@
+*,  {
+      list-style-type:none;
+      margin:0;
+       padding:0;
+  
+    }
+
+body{
+   
+      background: url("wf1.jpg") no-repeat center fixed ;
+      background-size: cover;
+    }
+  
+    #CONTAINER  {
+                    width:900px;
+                    border-radius:12px ;
+		            margin: 120px auto;
+		            overflow:hidden;
+		            height:420px;
+                }
+	
+    
+        #HEADER {
+                    background: url(http://pixdaus.com/files/items/pics/1/46/261146_55779a6e04d557491126844b74f86727_large.jpg) ;
+                    overflow:hidden;
+                    padding:10px;
+                    color:black;
+                    height:150px;
+                }
+				
+        #SECTION{
+                    margin:autp;           
+                    overflow:hidden;
+                    padding:10px;
+                    color:#333333;
+                    height:100px;
+                    background-color:white; 
+                }
+				 
+            #SECTION >  img {
+                                float:left;
+                                height:150px;
+                                width:150px;
+                                margin:-10px 20px;
+                                display:block;
+                                border-radius:75px   ;
+                                top:250px;
+                                position:absolute;
+                                border:5px solid white;
+                            }
+							
+
+            #SECTION >  h2  {
+  
+                                margin:120px 0px 150px 200px;
+                                display:inline;
+                                color:#333333;
+                                font-size:30px;
+  
+                            }
+
+            #SECTION >  p   {
+                                display:inline;
+                                margin:2px ;
+                                overflow:hidden;
+                                font-size:21px;
+    
+                            }
+							
+            #SECTION >  h3  {
+                                display:block;
+                                margin:1px 240px 0px 190px ;
+                                padding:10px;
+                                color:#00BFFF;
+                                font-weight:bold;
+                                font-size:20px;
+                            }
+
+        #FOOTER {
+                    margin:auto;           
+                    overflow:hidden;
+                    padding:10px;
+                    color:black;
+                    height:120px;
+                    border: 2px solid #DCDCDC;
+                    background-color:white;
+                }
+            .blocks {
+		                border-radius:10px ;  
+					    width:120px;
+					    margin:12px 24px 12px 24px;
+		                border:1px solid #A9A9A9;
+					    padding:10px;
+					    height:60px;
+					    float:left; 
+                        display: inline;
+					}
+
+                        h3  {
+                               color:#808080;
+                               margin:5px 40px ;
+                               font-weight: bold;
+                               font-size: 1.5em;
+					        }
+
+                        p   {
+                                color:#808080;
+                                margin:5px 25px ;
+                                font-weight: normal;
+                            }
+
+
+            .button1    {
+                            text-align: center;
+		                    text-decoration: none; 
+                            display: inline;
+		                    cursor: pointer; 
+		                    border: none; 
+		                    background-color:#DCDCDC; 
+                            color: white;
+		                    margin:20px 0px 60px 140px;
+                            padding: 10px;
+                            font-size: 16px;
+                            overflow:hidden;
+                            width:60px;
+                            border-radius:8px;
+                            height:60px;
+                            
+                        }
+						
+            .button2    {
+                            text-align: center;
+			                text-decoration: none; 
+                            display: inline;
+			                cursor: pointer; 
+			                border: none; 
+		                    background-color:#DCDCDC; 
+                            color: white;
+	                        margin:2px 10px 20px 20px;
+                            padding: 10px;
+                            overflow:hidden;
+                            width:60px;
+                            border-radius:8px ;
+                            height:60px;
+                        }
